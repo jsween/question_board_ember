@@ -19,7 +19,7 @@ export default Ember.Route.extend({
       var answers_to_delete = question.get('answers').map(function(answer) { //this deletes all answers associated with question then deletes the question
         return answer.destroyRecord();
       });
-      Ember.RSVP.all(answers_to_delete).then(function() {
+      Ember.RSVP.all(answers_to_delete).then(function() { //takes in resolve and reject promises
         return question.destroyRecord();
       });
       this.transitionTo('index');

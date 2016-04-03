@@ -13,7 +13,6 @@ export default Ember.Component.extend({
         author: this.get('author'),
         question: this.get('question')
       };
-      console.log(params);
       this.set('showAnswerForm', false);//hide form
       this.sendAction('save', params);
     }
