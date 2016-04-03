@@ -1,2 +1,2 @@
-<h2>{{question.question}}</h2>
-by: <h5>{{question.author}}</h5>
+<h2>{{#link-to 'question' question.id}}{{question.question}}{{/link-to}}</h2>
+Asked by: <h5>{{question.author}}</h5>
