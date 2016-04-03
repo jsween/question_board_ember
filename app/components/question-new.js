@@ -6,7 +6,9 @@ export default Ember.Component.extend({
     showNewQuestionForm() {
       this.set('showNewQuestionForm', true);//show form
     },
-    // hideNewQuestionForm(){}
+    hideNewQuestionForm(){
+      this.set('showNewQuestionForm', false);//allows user to hide form if changes mind
+    },
     save() {
       var params = {
         question: this.get('question'),
