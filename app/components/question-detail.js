@@ -2,12 +2,11 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    save(question, params) {
+    save(question, params) {  //sends changes to editQuestion
       this.sendAction('save', question, params)
     },
-    deleteQuestion(question) {
+    deleteQuestion(question) { //deletes question and answers
       if(confirm('Are you sure you want to delete this question?')) {
-        console.log('delete at question detail');
         this.sendAction('delete', question);
       }
     }

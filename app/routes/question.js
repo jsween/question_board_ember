@@ -8,15 +8,15 @@ export default Ember.Route.extend({
     });
   },
   actions: {
-    editQuestion(question, params) {
-      Object.keys(params).forEach(function(key) {
+    editQuestion(question, params) { //save edited question
+      Object.keys(params).forEach(function(key) { //if a field is left blank
         question.set(key, params[key]);
       });
       question.save();
       this.transitionTo('question');
     },
     deleteQuestion(question) {
-      var answers_to_delete = question.get('answers').map(function(answer) {
+      var answers_to_delete = question.get('answers').map(function(answer) { //this deletes all answers associated with question then deletes the question
         return answer.destroyRecord();
       });
       Ember.RSVP.all(answers_to_delete).then(function() {
@@ -24,7 +24,7 @@ export default Ember.Route.extend({
       });
       this.transitionTo('index');
     },
-    saveAnswer(params) {
+    saveAnswer(params) {  //saves the answer to model
       var newAnswer = this.store.createRecord('answer', params);
       var question = params.question;
       newAnswer.save().then(function() {
