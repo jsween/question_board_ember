@@ -14,7 +14,7 @@
       {{input value=question.notes id="notes" placeholder=question.notes}}
     </div>
     <button {{action 'save' question}}>Save</button>
-    <!-- add cancel button? -->
+    <button {{action 'hideEditForm'}}>Cancel</button>
   </form>
 {{else}}
   <button {{action 'showEditForm'}}>Edit</button>
