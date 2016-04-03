@@ -1,1 +1,21 @@
-{{yield}}
+{{#if showEditForm}}
+  <h2>Edit the Question</h2>
+  <form>
+    <div class="form-group">
+      <label for="question">Question: </label>
+      {{input value=question.question id="question" placeholder=question.question}}
+    </div>
+    <div class="form-group">
+      <label for="author">Author: </label>
+      {{input value=question.author id="author" placeholder=question.author}}
+    </div>
+    <div class="form-group">
+      <label for="notes">Notes: </label>
+      {{input value=question.notes id="notes" placeholder=question.notes}}
+    </div>
+    <button>Save</button>
+  </form>
+{{else}}
+  <button {{action 'showEditForm'}}>Edit</button>
+  <button {{action 'deleteQuestion' question}}>Delete</button>
+{{/if}}
