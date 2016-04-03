@@ -7,6 +7,7 @@ export default Ember.Component.extend({
     },
     deleteQuestion(question) {
       if(confirm('Are you sure you want to delete this question?')) {
+        console.log('delete at question detail');
         this.sendAction('delete', question);
       }
     }

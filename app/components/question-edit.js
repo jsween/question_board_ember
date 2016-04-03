@@ -16,7 +16,8 @@ export default Ember.Component.extend({
       this.sendAction('save', question, params);
     },
     deleteQuestion(question) {
-      this.sendAction('delete', question);
+      console.log('delete from edit question level');
+      this.sendAction('deleteQuestion', question);
     }
   }
 });
