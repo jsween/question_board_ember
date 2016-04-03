@@ -6,7 +6,9 @@ export default Ember.Component.extend({
     showAnswerForm() {
       this.set('showAnswerForm', true);//show form
     },
-    // hide answer form
+    hideAnswerForm() {
+      this.set('showAnswerForm', false);//hide form if user decides to cancel edit
+    },
     save() {
       var params = {
         answer: this.get('answer'),

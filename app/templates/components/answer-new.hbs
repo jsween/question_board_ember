@@ -10,6 +10,7 @@
       {{input value=author id="author"}}
     </div>
     <button {{action 'save' question}}>Answer!</button>
+    <button {{action 'hideAnswerForm'}}>Cancel</button>
   </form>
 {{else}}
   <button {{action 'showAnswerForm'}}>Give an Answer</button>
