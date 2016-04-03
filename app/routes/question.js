@@ -8,7 +8,7 @@ export default Ember.Route.extend({
     });
   },
   actions: {
-    editQuestion(params) {
+    editQuestion(question, params) {
       Object.keys(params).forEach(function(key) {
         question.set(key, params[key]);
       });
