@@ -1,0 +1,15 @@
+{
+  "questions": [{
+    "question": "What is an onion brulee?",
+    "author": "Jon Sweeney",
+    "notes": "Is it good?"
+  }, {
+    "question": "Would you rather fight 1 horse-sized duck or 100 duck-sized horses?",
+    "author": "Jon Sweeney",
+    "notes": "From Reddit"
+    }, {
+      "question": "What kind of restaurant makes you cook your own food?",
+      "author": "Bill Murray",
+      "notes": "Lost in Translation"
+    }]
+}
