@@ -1,10 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  showAnswerForm: false,
+  showAnswerForm: false, //initially hides form
   actions: {
     showAnswerForm() {
-      this.set('showAnswerForm', true);
+      this.set('showAnswerForm', true);//show form
     },
     // hide answer form
     save() {
@@ -14,7 +14,7 @@ export default Ember.Component.extend({
         question: this.get('question')
       };
       this.set('showAnswerForm', false);//hide form
-      this.sendAction('save', params);
+      this.sendAction('save', params);//send to question route
     }
   }
 });
