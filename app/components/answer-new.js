@@ -9,9 +9,11 @@ export default Ember.Component.extend({
     // hide answer form
     save() {
       var params = {
-        question: this.get('answer'),
-        author: this.get('author')
+        answer: this.get('answer'),
+        author: this.get('author'),
+        question: this.get('question')
       };
+      console.log(params);
       this.set('showAnswerForm', false);//hide form
       this.sendAction('save', params);
     }
