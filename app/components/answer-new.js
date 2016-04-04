@@ -14,6 +14,7 @@ export default Ember.Component.extend({
         var params = {
           answer: this.get('answer'),
           answer_author: this.get('answer_author'),
+          answer_author_avatar: this.get('answer_author_avatar'),
           question: this.get('question')
         };
         this.set('showAnswerForm', false);//hide form
