@@ -11,11 +11,11 @@ export default Ember.Component.extend({
     },
     save(question) {  //catches the changes to the question
       var params = {
-        question: this.get('question'),
-        author: this.get('author'),
-        author_avatar: this.get('author_avatar'),
-        notes: this.get('notes'),
-        image: this.get('image')
+        question: this.get('question.question'),
+        author: this.get('question.author'),
+        author_avatar: this.get('question.author_avatar'),
+        notes: this.get('question.notes'),
+        image: this.get('question.image')
       };
       console.log(params);
       this.set('showEditForm', false);//hide form
