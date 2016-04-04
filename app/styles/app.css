@@ -1,4 +1,99 @@
-#image {
-  max-width: 250px;
-  border-radius: 5px;
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+    padding: 5px 5px;
+    background-color: firebrick;
+    border-bottom: 5px solid #222;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-shadow: 2px 2px #222;
+    font-weight: bold;
+    color: #eee;
+    font-size: 2.5em;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-shadow: 1px 1px #ddd;
+    text-decoration: none;
+    color: #444;
+}
+
+body {
+    background-color: #ccc;
+}
+
+footer {
+    border-top: 3px solid #222;
+    font-size: 1.5em;
+    padding: 15px 0 20px;
+    background-color: firebrick;
+}
+
+footer a {
+    color: #eee;
+    text-shadow: 1px 1px #222;
+}
+
+footer a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+#logo {
+    max-height: 100px;
+}
+
+#ask-question {
+  margin: 5px 0 30px 50px;
+  padding: 10px 50px;
+}
+
+#post-detail-box {
+  background-color: #eee;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 1px 5px 10px #222;
+}
+
+#question-form {
+  background-color: #fee;
+  border: 1px solid firebrick;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 1px 5px 10px #222;
+}
+
+.post-box {
+  background-color: #eee;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 1px 5px 10px #222;
+}
+
+.center {
+    text-align: center;
+}
+
+.avatar {
+  max-width: 50px;
+  border-radius: 100%;
+}
+
+.q_image {
+  max-height: 150px;
+  max-width: 200px;
+}
+
+.inline-block {
+  display: inline-block;
 }

@@ -1,5 +1,13 @@
-<h2>HEADER</h2>
+<nav>
+    {{#link-to 'index'}}<img id="logo" src="http://www.movimentotorino.it/site/Question-mark-icon.png" alt="logo" />Answers{{/link-to}}
+    {{#link-to 'about'}}About{{/link-to}}
+    {{#link-to 'contact'}}Contact{{/link-to}}
+</nav>
 
-{{outlet}}
+<div class="container">
+  {{outlet}}
+</div>
 
-<h2>FOOTER</h2>
+<footer class="center">
+    &copy;2016 <a href="https://github.com/jsween">Jon Sweeney</a>
+</footer>
