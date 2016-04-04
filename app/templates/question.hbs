@@ -1,5 +1,6 @@
 {{question-detail question=model.question save="editQuestion" delete="deleteQuestion"}}
 
-{{answer-new question=model.question save="saveAnswer"}}
-
-{{answer-list question=model.question}}
+<div class="answers">
+  {{answer-new question=model.question save="saveAnswer"}}
+  {{answer-list question=model.question}}
+</div>
