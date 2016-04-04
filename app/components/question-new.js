@@ -14,7 +14,9 @@ export default Ember.Component.extend({
         var params = {
           question: this.get('question'),
           author: this.get('author'),
-          notes: this.get('notes')
+          author_avatar: this.get('author_avatar'),
+          notes: this.get('notes'),
+          image: this.get('image')
         };
         this.set('showNewQuestionForm', false);//hide form
         this.sendAction('save', params);

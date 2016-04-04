@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'answer-board',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://qandaboard.firebaseio.com/',
+    firebase: 'https://qandaboard2.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

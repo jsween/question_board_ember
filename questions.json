@@ -2,14 +2,20 @@
   "questions": [{
     "question": "What is an onion brulee?",
     "author": "Jon Sweeney",
-    "notes": "Is it good?"
+    "author_avatar": "https://d13yacurqjgara.cloudfront.net/users/123125/screenshots/1082827/ape2_1x.png",
+    "notes": "Is it good?",
+    "image": "http://www.talkoftomatoes.com/wp-content/uploads/2011/12/6443638261_b002ea360d.jpg"
   }, {
     "question": "Would you rather fight 1 horse-sized duck or 100 duck-sized horses?",
     "author": "Jon Sweeney",
-    "notes": "From Reddit"
+    "author_avatar": "https://d13yacurqjgara.cloudfront.net/users/123125/screenshots/1082827/ape2_1x.png",
+    "notes": "From Reddit",
+    "image": "http://www.wired.com/images_blogs/wiredscience/2013/02/screenshot_2_21_13_2_41_pm.jpg"
     }, {
       "question": "What kind of restaurant makes you cook your own food?",
       "author": "Bill Murray",
-      "notes": "Lost in Translation"
+      "author_avatar": "http://vignette2.wikia.nocookie.net/ghostbusters/images/1/11/Bill_Murray.jpeg/revision/latest?cb=20081013140955",
+      "notes": "Lost in Translation",
+      "image": "http://images.edge-generalmills.com/e7f0b471-43b7-42d1-8367-ed5697432a33.jpg"
     }]
 }
