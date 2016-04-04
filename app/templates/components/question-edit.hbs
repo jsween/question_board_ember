@@ -11,7 +11,7 @@
     </div>
     <div class="form-group">
       <label for="author_avatar">Your Avatar URL: </label>
-      {{input value=question.author_avatar id="author_avatar" placeholder=question.author_avatar}}
+      {{input value="http://images.edge-generalmills.com/e7f0b471-43b7-42d1-8367-ed5697432a33.jpg" id="author_avatar" placeholder=question.author_avatar}}
     </div>
     <div class="form-group">
       <label for="notes">Notes: </label>
@@ -19,7 +19,7 @@
     </div>
     <div class="form-group">
       <label for="image">Image URL: </label>
-      {{input value=question.image id="image" placeholder=question.image}}
+      {{input value="http://images.edge-generalmills.com/e7f0b471-43b7-42d1-8367-ed5697432a33.jpg" id="image" placeholder=question.image}}
     </div>
     <button {{action 'save' question}}>Save</button>
     <button {{action 'hideEditForm'}}>Cancel</button>
