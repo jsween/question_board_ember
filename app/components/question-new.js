@@ -10,13 +10,17 @@ export default Ember.Component.extend({
       this.set('showNewQuestionForm', false);//allows user to hide form if changes mind
     },
     save() {
-      var params = {
-        question: this.get('question'),
-        author: this.get('author'),
-        notes: this.get('notes')
-      };
-      this.set('showNewQuestionForm', false);//hide form
-      this.sendAction('save', params);
+      if(this.get('question')) {
+        var params = {
+          question: this.get('question'),
+          author: this.get('author'),
+          notes: this.get('notes')
+        };
+        this.set('showNewQuestionForm', false);//hide form
+        this.sendAction('save', params);
+      } else {
+        alert('Please ask a question first!');
+      }
     }
   }
 });
