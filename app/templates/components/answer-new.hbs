@@ -13,9 +13,9 @@
       <label for="answer_author_avatar">Your Avatar URL: </label>
       {{input value=answer_author_avatar id="answer_author_avatar"}}
     </div>
-    <button {{action 'save' question}}>Answer!</button>
-    <button {{action 'hideAnswerForm'}}>Cancel</button>
+    <button class="btn btn-success" {{action 'save' question}}>Answer!</button>
+    <button class="btn btn-warning"{{action 'hideAnswerForm'}}>Cancel</button>
   </form>
 {{else}}
-    <button {{action 'showAnswerForm'}}>Give an Answer</button>
+    <button class="btn-lg btn-primary" {{action 'showAnswerForm'}}>Give an Answer</button>
 {{/if}}

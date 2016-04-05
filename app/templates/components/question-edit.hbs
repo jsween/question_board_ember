@@ -21,10 +21,10 @@
       <label for="image">Image URL: </label>
       {{input value=question.image id="image" placeholder=question.image}}
     </div>
-    <button {{action 'save' question}}>Save</button>
-    <button {{action 'hideEditForm'}}>Cancel</button>
+    <button class="btn btn-success" {{action 'save' question}}>Save</button>
+    <button class="btn btn-warning" {{action 'hideEditForm'}}>Cancel</button>
   </form>
 {{else}}
-  <button {{action 'showEditForm'}}>Edit</button>
-  <button {{action 'deleteQuestion' question}}>Delete</button>
+  <button class="btn-info" {{action 'showEditForm'}}>Edit</button>
+  <button class="btn-danger" {{action 'deleteQuestion' question}}>Delete</button>
 {{/if}}

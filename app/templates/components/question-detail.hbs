@@ -1,6 +1,8 @@
-<h2>{{question.question}}</h2>
-<h5>Asked by: {{question.author}}</h5>
-<p>
-  {{question.notes}}
-</p>
-{{question-edit question=question save="save" deleteQuestion="deleteQuestion"}}
+<div id="post-detail-box">
+  <h2>{{question.question}}</h2>
+  <h5>Asked by: {{question.author}}</h5>
+  <p>
+    {{question.notes}}
+  </p>
+  {{question-edit question=question save="save" deleteQuestion="deleteQuestion"}}
+</div>
