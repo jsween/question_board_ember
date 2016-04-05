@@ -1,4 +1,6 @@
-<h2>{{#link-to 'question' question.id}}{{question.question}}{{/link-to}}</h2>
-Asked by: <h5>{{question.author}}</h5>
-<img src="{{question.author_avatar}}" alt="question.question" />
-<img src="{{question.image}}" alt="{{question.question}}" />
+<div class="post-box">
+  <img class="avatar" src="{{question.author_avatar}}" alt="question.question" />
+  <h4>Asked by: {{question.author}}</h4>
+  <h2>{{#link-to 'question' question.id}}{{question.question}}{{/link-to}}</h2>
+  <img class="q_image" src="{{question.image}}" alt="{{question.question}}" />
+</div>
