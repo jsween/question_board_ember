@@ -1,7 +1,11 @@
 # Answer-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This Ember web application allows users to ask and respond to questions.
+
+### By Jon Sweeney
+
+## Description
+This web application allows users to ask and respond to questions.  Users can create, edit and delete questions.  Answers can be posted to respond to questions.  
 
 ## Prerequisites
 
@@ -20,10 +24,29 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
+## Remaining Development
+
+* Complete styling
+* Create user logins
+* Create Admin
+* Add Rating to Answers
+* Sort Answers by Rating
+
 ## Running / Development
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+
+### Support and Contact details
+
+Feel free to contact me through [Github](https://github.com/jsween).
+
+### Technologies Used
+
+* Ember
+* JavaScript
+* Node/NPM
+* Bower
 
 ### Code Generators
 
@@ -51,3 +74,7 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### License
+
+The MIT License (MIT)
+Copyright (c) 2016 Jon Sweeney
