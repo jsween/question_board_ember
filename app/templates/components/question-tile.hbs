@@ -1,4 +1,5 @@
 <div class="post-box">
+  {{question-popularity question}}
   <img class="avatar" src="{{question.author_avatar}}" alt="question.question" />
   <h4>Asked by: {{question.author}}</h4>
   <h2>{{#link-to 'question' question.id}}{{question.question}}{{/link-to}}</h2>
