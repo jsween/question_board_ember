@@ -5,7 +5,7 @@ This Ember web application allows users to ask and respond to questions.
 ### By Jon Sweeney
 
 ## Description
-This web application allows users to ask and respond to questions.  Users can create, edit and delete questions.  Answers can be posted to respond to questions.  
+This web application allows users to ask and respond to questions.  Users can create, edit and delete questions.  Answers can be posted to respond to questions.  In addition, a computed property and helper were added.
 
 ## Prerequisites
 
