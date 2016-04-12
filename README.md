@@ -31,6 +31,8 @@ You will need the following things properly installed on your computer.
 * Create Admin
 * Add Rating to Answers
 * Sort Answers by Rating
+* Redesign index for favorites list
+* Hide Add to favorites once added and switch to a remove from favorites
 
 ## Running / Development
 
@@ -61,10 +63,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
