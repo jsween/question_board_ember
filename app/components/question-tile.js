@@ -10,7 +10,6 @@ export default Ember.Component.extend({
   actions: {
     addToFavorites(item) {
       this.get('favoritesList').add(item);
-      // console.log(item);
     }
   }
 });

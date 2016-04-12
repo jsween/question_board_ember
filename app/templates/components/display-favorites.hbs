@@ -1,4 +1,6 @@
 <h3>Favorite Questions</h3>
-{{#each favoritesList.questions as |question|}}
-  {{question.question}} by {{question.author}}
-{{/each}}
+<ul>
+  {{#each favoritesList.questions as |question|}}
+    <li><span class="glyphicon glyphicon-heart"></span> {{question.question}} by {{question.author}}</li>
+  {{/each}}
+</ul>

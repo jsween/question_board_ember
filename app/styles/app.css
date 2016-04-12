@@ -97,3 +97,18 @@ footer a:hover {
 .inline-block {
   display: inline-block;
 }
+
+.btn-secondary {
+  background-color: #fefefe;
+  border: 1px solid firebrick;
+  border-bottom: 2px solid firebrick;
+  border-right: 2px solid firebrick;
+}
+
+.btn-secondary:hover {
+  background-color: #222;
+  border: 1px solid firebrick;
+  border-bottom: 2px solid firebrick;
+  border-right: 2px solid firebrick;
+  color: firebrick;
+}
